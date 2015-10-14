@@ -4,25 +4,13 @@ namespace Cycloo\Domain;
 
 class Bike
 {
-    /**
-     * Article id.
-     *
-     * @var integer
-     */
+    
     private $id;
 
-    /**
-     * Article title.
-     *
-     * @var string
-     */
+    
     private $name;
 
-    /**
-     * Article content.
-     *
-     * @var string
-     */
+    
     private $description;
 
     public function getId() {
